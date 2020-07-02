@@ -1,3 +1,22 @@
+----------- Art Gallery ----------
+1. Install npm
+    https://www.npmjs.com/get-npm
+2. Clone the git repo using
+    git clone https://github.com/varshila/Art_Gallery.git
+3. Route to the cloned local repository
+    cd [local repository]
+4. Install all dependencies specified in package.json
+    npm install
+5. Run the Web App
+    npm start
+
+    Note: There is a possibility to run into "node-gyp v7 error" on Mac-OS Catalina (Reference: https://github.com/nodejs/node-gyp/issues/1927)
+    To resolve: sudo rm -rf $(xcode-select -print-path) xcode-select --install
+
+6. The app should be running on the configured port in the browser
+    http://localhost:3000
+----------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
